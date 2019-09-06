@@ -3,6 +3,7 @@
 yymmdd=`date +%y%m%d`
 LOG_FILE='load_eftrs_data'$yymmdd'.log'
 OUT_FILE='eftrs.txt'
+TMP_FILE 'tmp_eftrs.tst'
 MSG=$YUKON/static/message.txt
 HEADER_RECORD="Acct     ,Cusip    ,Description                   ,Qty,Rmd,Rsn,Acct type,Client type,Acct Name                          ,Fail Reason Text" 
 echo "$HEADER_RECORD"
